@@ -1,0 +1,30 @@
+<svg id="it_svg_line_1" class="it_svg_line" width="628" height="221" viewBox="0 0 628 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M628 1H549L510 40H426.5L246.5 220H-2.5" stroke="#2F2F2F"/>
+
+    <style>
+        <![CDATA[
+
+            #it_svg_line_1{
+                stroke-dashoffset: -718;
+                stroke:#FDE641;
+                stroke-dasharray: 718, 718;
+
+                animation: line_animation 1000ms linear forwards;
+                animation-play-state: paused;
+            }
+
+            .small_svg_wrapper_running .it_svg_line{
+                animation-play-state: running;
+            }
+
+            @keyframes line_animation {
+                0% {
+                    stroke-dashoffset: -718;
+                }
+                100% {
+                    stroke-dashoffset: 0;
+                }
+            }
+        ]]>
+    </style>
+</svg>

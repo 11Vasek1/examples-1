@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./circles.css" />
+    <link rel="stylesheet" href="lines.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="black" id="team">
+      <div class="container">
+        <div class="back_lines black_back_lines">
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+        </div>
+
+        <h2 class="title text white anime fadeIn_hide">
+          Сильная команда — <span class="text black white_bg">это здорово</span>
+        </h2>
+        <div class="description text white anime fadeIn_hide">
+          Как можно понять, тут будет просто какой то текст. Возможно будет
+          какой то полезный контент или описание, что происходило на сайте
+        </div>
+        <div class="circles_container">
+          <div class="mouse_circle_wrap" number="1">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">1</div>
+              <div class="circle_title text white anime fadeIn_hide">
+                О проекте
+              </div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                Создавал очень давно. Апрель 21 года
+              </div>
+            </div>
+          </div>
+
+          <div class="mouse_circle_wrap" number="2">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">2</div>
+              <div class="circle_title text white anime fadeIn_hide">
+                Про код
+              </div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                В код специально не заходил, не хочу делать настолько больно
+              </div>
+            </div>
+          </div>
+
+          <div class="mouse_circle_wrap" number="3">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">65</div>
+              <div class="circle_title text white anime fadeIn_hide">
+                Диватоз
+              </div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                Ещё тогда я болел диватозом. Если кто не знает - это усиленное
+                использование div'ов
+              </div>
+            </div>
+          </div>
+
+          <div class="mouse_circle_wrap" number="4">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">4</div>
+              <div class="circle_title text white anime fadeIn_hide">Title</div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                Наверное надо бы описать, что тут происходит
+              </div>
+            </div>
+          </div>
+
+          <div class="mouse_circle_wrap" number="5">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">5</div>
+              <div class="circle_title text white anime fadeIn_hide">Title</div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                Шары притягиваются к мышке
+              </div>
+            </div>
+          </div>
+
+          <div class="mouse_circle_wrap" number="6">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">6</div>
+              <div class="circle_title text white anime fadeIn_hide">
+                Science
+              </div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                При этом всё согласно физике
+              </div>
+            </div>
+          </div>
+
+          <div class="mouse_circle_wrap" number="7">
+            <div class="mouse_circle">
+              <div class="circle_number text white anime fadeIn_hide">7</div>
+              <div class="circle_title text white anime fadeIn_hide">Title</div>
+              <div class="circle_descr text white anime fadeIn_hide">
+                Надо же было куда то впихнуть свои знания теормеха из Бауманки)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="black" id="vidu">
+      <div class="container">
+        <div class="back_lines black_back_lines">
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+        </div>
+        <div class="svg_circle_wrapper black_circle">
+          <svg
+            class="svg_circle"
+            viewBox="0 0 140 140"
+            preserveAspectRatio="xMinYMin meet"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="140"
+            style="transform: rotate(-90deg)"
+          >
+            <circle
+              class="circle"
+              cx="70"
+              cy="70"
+              r="68"
+              fill="none"
+              stroke-width="1"
+            ></circle>
+            <circle
+              class="circle_red"
+              cx="70"
+              cy="70"
+              r="68"
+              fill="none"
+              stroke-width="1"
+            ></circle>
+          </svg>
+          <div
+            class="svg_circle_text text anime fade_hide"
+            style="transition-delay: 1.8s"
+          >
+            choice
+          </div>
+        </div>
+
+        <h2 class="title text white anime fadeIn_hide">Ещё заголовок</h2>
+        <div class="content">
+          <div class="types_wrapper">
+            <div class="mouse_circle_wrap" number="1">
+              <div class="mouse_circle">
+                <img src="./img/icon1.svg" alt="" />
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <h3 class="title title_h3 text white anime fadeIn_hide">Шары</h3>
+              <div class="stick anime stick_hide delay_10"></div>
+              <div class="description text white anime fadeIn_hide">
+                Тут тоже шары, ничего интересного
+              </div>
+            </div>
+          </div>
+          <div class="types_wrapper">
+            <div class="mouse_circle_wrap" number="2">
+              <div class="mouse_circle">
+                <img src="./img/icon2.svg" alt="" />
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <h3 class="title title_h3 text white anime fadeIn_hide">
+                Структура
+              </h3>
+              <div class="stick anime stick_hide delay_10"></div>
+              <div class="description text white anime fadeIn_hide">
+                Но при этом дом дерево выглядит очень странно. Это сделано для
+                адаптации
+              </div>
+            </div>
+          </div>
+          <div class="types_wrapper">
+            <div class="mouse_circle_wrap" number="3">
+              <div class="mouse_circle">
+                <img src="./img/icon3.svg" alt="" />
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <h3 class="title title_h3 text white anime fadeIn_hide">
+                SVG анимации
+              </h3>
+              <div class="stick anime stick_hide delay_10"></div>
+              <div class="description text white anime fadeIn_hide">
+                Это ещё один мой скилл. Результат можно лицезреть у заголовка
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="black" id="it">
+      <div class="background"></div>
+      <div class="container">
+        <div class="back_lines black_back_lines">
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+          <div class="back_line"></div>
+        </div>
+        <div class="svg_circle_wrapper black_circle">
+          <svg
+            class="svg_circle"
+            viewBox="0 0 140 140"
+            preserveAspectRatio="xMinYMin meet"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="140"
+            style="transform: rotate(-90deg)"
+          >
+            <circle
+              class="circle"
+              cx="70"
+              cy="70"
+              r="68"
+              fill="none"
+              stroke-width="1"
+            ></circle>
+            <circle
+              class="circle_red"
+              cx="70"
+              cy="70"
+              r="68"
+              fill="none"
+              stroke-width="1"
+            ></circle>
+          </svg>
+          <div
+            class="svg_circle_text text anime fade_hide"
+            style="transition-delay: 1.8s"
+          >
+            it
+          </div>
+        </div>
+
+        <h2 class="title text white anime fadeIn_hide">
+          Нужно. Больше. SVG анимаций.
+        </h2>
+        <div class="content">
+          <div class="image_container">
+            <img
+              class="anime fadeIn_hide pc_image"
+              src="./img/phone.png"
+              alt=""
+              style="opacity: 0"
+            />
+            <img
+              class="anime fadeIn_hide mobile_image"
+              src="./img/phone_adapt.png"
+              alt=""
+            />
+          </div>
+          <div class="text_container">
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">О</div>
+              <div class="description text white anime fadeIn_hide">
+                Это моя любимая часть этого сайта
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_1"
+                  class="it_svg_line"
+                  width="628"
+                  height="221"
+                  viewBox="0 0 628 221"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M628 1H549L510 40H426.5L246.5 220H-2.5"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Много SVG
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Да, определенно много СВГ
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_2"
+                  class="it_svg_line"
+                  width="1023"
+                  height="274"
+                  viewBox="0 0 1023 274"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M-2.5 261.479H240.898L251.362 273L337.802 86H641.708L732.243 35H899.664L969.726 1H1022.5"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Тайминги
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                При этом всё работает при доскролливании
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_3"
+                  class="it_svg_line"
+                  width="634"
+                  height="130"
+                  viewBox="0 0 634 130"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.500011 87.9565L41.5407 129H505.509L633.5 0.999998"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Поясню
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Всё запускается в тот момент, когда скролл доходит до желтой
+                мигающей точки
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_4"
+                  class="it_svg_line"
+                  style="margin-top: -58px"
+                  width="1035"
+                  height="110"
+                  viewBox="0 0 1035 110"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1034 59.5L984.5 109H656L590 43H417L375 1H0.5"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Это было интересно
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Люблю подобные задачки
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_5"
+                  class="it_svg_line"
+                  width="638"
+                  height="144"
+                  viewBox="0 0 638 144"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M637.5 1L606 25.5H446L382.5 89H246.5L192 143.5H0.5"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                А что сайт?
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                С ним всё не очень
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_6"
+                  class="it_svg_line"
+                  width="1037"
+                  height="117"
+                  viewBox="0 0 1037 117"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1036 1L986.5 50.5H709.5L635.5 116H453L414.5 77.5H0"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Лучше не заходить
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Ну вы знаете этих заказчиков
+              </div>
+              <div class="small_svg_wrapper">
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                А что с ними?
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Сначала заказывают красивый сайт, а потом правят его
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_8"
+                  class="it_svg_line"
+                  width="1037"
+                  height="2"
+                  viewBox="0 0 1037 2"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1036.5 1.00009L0.5 1" stroke="#2F2F2F" />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Как?
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Так, что потом без слез не взглянешь
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_9"
+                  class="it_svg_line bottom_svg"
+                  width="636"
+                  height="91"
+                  viewBox="0 0 636 91"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M635.501 90.5342L600.394 55.137H382.867L329.174 1H185.992L158.457 28.7626H0"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Типичный заказчик
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                А с этим проектом вроде всё
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_10"
+                  class="it_svg_line bottom_svg"
+                  width="1036"
+                  height="149"
+                  viewBox="0 0 1036 149"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1035.5 148H538L291 0.521912H0" stroke="#2F2F2F" />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text_wrapper">
+              <div class="title title_h3 text white anime fadeIn_hide">
+                Интересности закончились
+              </div>
+              <div class="description text white anime fadeIn_hide">
+                Но в другом сайте всё только начинается
+              </div>
+              <div class="small_svg_wrapper">
+                <svg
+                  id="it_svg_line_11"
+                  class="it_svg_line bottom_svg"
+                  width="641"
+                  height="386"
+                  viewBox="0 0 641 386"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M640.5 385.5H547V263.5L476 197.5L262 0.5H0"
+                    stroke="#2F2F2F"
+                  />
+                </svg>
+                <div class="small_blink_wrapper">
+                  <div class="small_blink"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lines_container">
+            <img
+              src="./img/background_lines.svg"
+              style="opacity: 0 !important"
+            />
+            <div class="gradient"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="menu_filter anime" onclick="menuOff()"></div>
+    <div class="menu_container anime hidden delay_0">
+      <div class="menu_black_back"></div>
+
+      <div class="menu_open_buttons">
+        <div class="menu_open_button menu_close_button" onclick="menuOff()">
+          <img src="./img/close_menu_button.svg" />
+        </div>
+        <a
+          class="menu_open_button menu_open_button_contacts"
+          href="mailto:hello@x-merch.ru"
+        >
+          <img src="./img/contacts_mail.svg" />
+        </a>
+        <a
+          class="menu_open_button menu_open_button_contacts"
+          href="tel:+79999999999"
+        >
+          <img src="./img/contacts_phone.png" />
+        </a>
+        <div class="menu_open_button menu_open_button_partners">
+          <div class="partners_text text white">Стать партнером</div>
+        </div>
+      </div>
+
+      <div class="menu_content">
+        <div class="menu_items">
+          <a class="menu_item_container" href="#merchandise">
+            <div class="menu_item_text text white anime delay_0">
+              Мерчандайзинг
+            </div>
+            <div class="menu_item_img anime delay_0">
+              <img src="./img/menu_item.svg" />
+            </div>
+          </a>
+          <a class="menu_item_container" href="#automation">
+            <div class="menu_item_text text white anime delay_0">
+              Автоматизация команды продаж
+            </div>
+            <div class="menu_item_img anime delay_0">
+              <img src="./img/menu_item.svg" />
+            </div>
+          </a>
+          <a class="menu_item_container" href="#it">
+            <div class="menu_item_text text white anime delay_0">
+              Собственная IT-платформа
+            </div>
+            <div class="menu_item_img anime delay_0">
+              <img src="./img/menu_item.svg" />
+            </div>
+          </a>
+          <a class="menu_item_container" href="#faq">
+            <div class="menu_item_text text white anime delay_0">
+              Ответы и вопросы
+            </div>
+            <div class="menu_item_img anime delay_0">
+              <img src="./img/menu_item.svg" />
+            </div>
+          </a>
+          <a class="menu_item_container" href="#contacts">
+            <div class="menu_item_text text white anime delay_0">Контакты</div>
+            <div class="menu_item_img anime delay_0">
+              <img src="./img/menu_item.svg" />
+            </div>
+          </a>
+        </div>
+        <div class="menu_button_container">
+          <div class="menu_button_descr text white">
+            Оставьте заявку на бесплатную конультацию
+          </div>
+          <div class="menu_button">
+            <div class="menu_button_text text">ОСТАВИТЬ ЗАЯВКУ</div>
+            <div class="menu_button_arrow anime delay_0">
+              <img src="./img/arrow_black.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup_container anime delay_0">
+      <div
+        class="menu_open_button menu_close_button popup_close_button"
+        onclick="popupOff()"
+      >
+        <img src="./img/close_menu_button.svg" />
+      </div>
+
+      <div class="popup_content">
+        <form method="POST" action="">
+          <div class="input">
+            <div class="form_description text">Как вас зовут</div>
+            <input type="text" class="text" required name="name" />
+          </div>
+
+          <div class="input">
+            <div class="form_description text">Ваш телефон</div>
+            <input type="tel" class="text" required name="phone" />
+          </div>
+
+          <div class="input">
+            <div class="form_description text">E-mail</div>
+            <input type="mail" class="text" required name="mail" />
+          </div>
+
+          <div class="input">
+            <div class="form_description text">Комментарий</div>
+            <input type="text" class="text" required name="comment" />
+          </div>
+          <div>
+            <div class="input_wrapper">
+              <input type="checkbox" name="policy" id="policy" required />
+            </div>
+            <label for="policy" class="form_description text"
+              >Согласен с политикой конфиденциальности</label
+            >
+          </div>
+
+          <button type="submit">
+            <div class="menu_button">
+              <div class="menu_button_text text">ОСТАВИТЬ ЗАЯВКУ</div>
+              <div class="menu_button_arrow anime delay_0">
+                <img src="./img/arrow_black.svg" />
+              </div>
+            </div>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
